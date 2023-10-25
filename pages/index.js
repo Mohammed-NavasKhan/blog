@@ -6,7 +6,6 @@ import Date from "../components/date";
 import { getSortedPostsData } from "../lib/posts";
 
 export default function Home({ allPostsData }) {
-  console.log("Index");
   return (
     <Layout home>
       <Head>
